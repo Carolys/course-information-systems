@@ -1,0 +1,17 @@
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\BancoDadosOsorioA.exe.config
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\BancoDadosOsorioA.exe
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\BancoDadosOsorioA.pdb
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\EntityFramework.dll
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\EntityFramework.xml
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.csprojResolveAssemblyReference.cache
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.exe
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.pdb
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.Migrations.CriarBanco.resources
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.csproj.GenerateResource.Cache
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.Migrations.AddTableMontadora.resources
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.Migrations.AddMontadoraTableCarros.resources
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\bin\Debug\BancoDadosOsorioA.exe.config
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.exe
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\BancoDadosOsorioA\BancoDadosOsorioA\obj\Debug\BancoDadosOsorioA.pdb
