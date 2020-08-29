@@ -1,0 +1,351 @@
+[
+    {
+        "id": "259ef44d.4f7e7c",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6c598479.a9a19c",
+        "type": "function",
+        "z": "259ef44d.4f7e7c",
+        "name": "Global_Var",
+        "func": "var valorteste;\nvar flag = 101;\nwhile(flag != valorteste) {\n    global.set(\"valorPoten\", msg);\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 523.5,
+        "y": 128,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4577e41a.1be9bc",
+        "type": "arduino in",
+        "z": "259ef44d.4f7e7c",
+        "name": "potenciometro_POT",
+        "pin": "0",
+        "state": "ANALOG",
+        "arduino": "82ae5bdd.43aeb8",
+        "x": 134,
+        "y": 127,
+        "wires": [
+            [
+                "79fd7ca2.2c1304"
+            ]
+        ]
+    },
+    {
+        "id": "79fd7ca2.2c1304",
+        "type": "range",
+        "z": "259ef44d.4f7e7c",
+        "minin": "0",
+        "maxin": "1023",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": true,
+        "property": "payload",
+        "name": "map_POT",
+        "x": 337.5,
+        "y": 128,
+        "wires": [
+            [
+                "6c598479.a9a19c"
+            ]
+        ]
+    },
+    {
+        "id": "d331142e.8f1d88",
+        "type": "inject",
+        "z": "259ef44d.4f7e7c",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "x": 153,
+        "y": 268,
+        "wires": [
+            [
+                "8b45febc.a0f7f"
+            ]
+        ]
+    },
+    {
+        "id": "8b45febc.a0f7f",
+        "type": "function",
+        "z": "259ef44d.4f7e7c",
+        "name": "obtem_val_poten",
+        "func": "var varTeste1 = global.get(\"valorBtnOnOff\").payload;\nvar varTeste = global.get(\"valorPoten\").payload;\n\nif(varTeste1 === 1) {\n    msg.payload = varTeste; \n    return msg;\n} else {\n    msg.payload = 0;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 354,
+        "y": 268,
+        "wires": [
+            [
+                "b9d56d53.dcca1",
+                "94c49d6a.f50a7"
+            ]
+        ]
+    },
+    {
+        "id": "b9d56d53.dcca1",
+        "type": "ui_gauge",
+        "z": "259ef44d.4f7e7c",
+        "name": "gg_POT",
+        "group": "f6eefd03.1850c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Valor Potenciometro",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ff0000",
+            "#e6e600",
+            "#00ff00"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 584,
+        "y": 273,
+        "wires": []
+    },
+    {
+        "id": "94c49d6a.f50a7",
+        "type": "arduino out",
+        "z": "259ef44d.4f7e7c",
+        "name": "buzzer_POT",
+        "pin": "5",
+        "state": "PWM",
+        "arduino": "82ae5bdd.43aeb8",
+        "x": 593,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fd5110e0.4d6bd",
+        "type": "arduino in",
+        "z": "259ef44d.4f7e7c",
+        "name": "onoff_BTN",
+        "pin": "8",
+        "state": "INPUT",
+        "arduino": "82ae5bdd.43aeb8",
+        "x": 107,
+        "y": 75,
+        "wires": [
+            [
+                "29b0bd57.f86c52"
+            ]
+        ]
+    },
+    {
+        "id": "29b0bd57.f86c52",
+        "type": "function",
+        "z": "259ef44d.4f7e7c",
+        "name": "Global_Var",
+        "func": "global.set(\"valorBtnOnOff\", msg);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 280,
+        "y": 75,
+        "wires": [
+            [
+                "67170e94.80593"
+            ]
+        ]
+    },
+    {
+        "id": "67170e94.80593",
+        "type": "arduino out",
+        "z": "259ef44d.4f7e7c",
+        "name": "led_POT",
+        "pin": "7",
+        "state": "OUTPUT",
+        "arduino": "82ae5bdd.43aeb8",
+        "x": 470,
+        "y": 75,
+        "wires": []
+    },
+    {
+        "id": "22658ccb.30b9e4",
+        "type": "function",
+        "z": "259ef44d.4f7e7c",
+        "name": "microfone_Var",
+        "func": "global.set(\"valorMicrofone\", msg);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 543.5,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8765745a.3991d8",
+        "type": "arduino in",
+        "z": "259ef44d.4f7e7c",
+        "name": "microfone_POT",
+        "pin": "3",
+        "state": "ANALOG",
+        "arduino": "82ae5bdd.43aeb8",
+        "x": 125,
+        "y": 196,
+        "wires": [
+            [
+                "b2557c2e.f956b"
+            ]
+        ]
+    },
+    {
+        "id": "b39a25bc.9c07e8",
+        "type": "inject",
+        "z": "259ef44d.4f7e7c",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "x": 138,
+        "y": 397,
+        "wires": [
+            [
+                "d3ee5c3f.4b746"
+            ]
+        ]
+    },
+    {
+        "id": "d3ee5c3f.4b746",
+        "type": "function",
+        "z": "259ef44d.4f7e7c",
+        "name": "envia_val_MQTT",
+        "func": "var varTeste1 = global.get(\"valorBtnOnOff\").payload;\nvar varTeste = global.get(\"valorMicrofone\").payload;\n\nif(varTeste1 === 1) {\n    msg.payload = varTeste; \n    return msg;\n} else {\n    msg.payload = 0;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 339,
+        "y": 397,
+        "wires": [
+            [
+                "e18dc104.11835",
+                "66d748aa.02c1e8"
+            ]
+        ]
+    },
+    {
+        "id": "e18dc104.11835",
+        "type": "ui_gauge",
+        "z": "259ef44d.4f7e7c",
+        "name": "gg_POT",
+        "group": "f6eefd03.1850c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Valor Microfone",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ff0000",
+            "#e6e600",
+            "#00ff00"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 569,
+        "y": 402,
+        "wires": []
+    },
+    {
+        "id": "66d748aa.02c1e8",
+        "type": "mqtt out",
+        "z": "259ef44d.4f7e7c",
+        "name": "MQTT_envia",
+        "topic": "TOPICO",
+        "qos": "2",
+        "retain": "true",
+        "broker": "63517a84.ab8384",
+        "x": 575,
+        "y": 455,
+        "wires": []
+    },
+    {
+        "id": "b2557c2e.f956b",
+        "type": "range",
+        "z": "259ef44d.4f7e7c",
+        "minin": "0",
+        "maxin": "1023",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": true,
+        "property": "payload",
+        "name": "map_POT",
+        "x": 335.5,
+        "y": 197,
+        "wires": [
+            [
+                "22658ccb.30b9e4"
+            ]
+        ]
+    },
+    {
+        "id": "82ae5bdd.43aeb8",
+        "type": "arduino-board",
+        "z": "",
+        "device": "COM5"
+    },
+    {
+        "id": "f6eefd03.1850c",
+        "type": "ui_group",
+        "z": "",
+        "name": "primeiro",
+        "tab": "d486c4fe.561b28",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "63517a84.ab8384",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "MQTT_Server",
+        "broker": "iot.eclipse.org",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "d486c4fe.561b28",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

@@ -1,0 +1,42 @@
+int val = 0;
+
+byte pins[] = {10, 11, 12, 13};
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  
+  pinMode(7, INPUT);
+  pinMode(6, INPUT);
+  
+  Serial.begin(9600);
+  
+}
+
+void loop()
+{
+  
+  if(digitalRead(7)){
+    if(val >0)
+    	val = val-1;
+      delay(300);
+  }
+  
+  if(digitalRead(6)){
+    if(val<15)
+    	val = val +1;
+    delay(300);
+  }
+  
+  for (int i=0; i<4; i++) {
+    byte state = bitRead(val, i);
+    digitalWrite(pins[i], state);
+    //Serial.print(state);
+  }
+ 
+  Serial.println(val);
+  
+}

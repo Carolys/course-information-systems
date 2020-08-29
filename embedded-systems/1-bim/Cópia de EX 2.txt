@@ -1,0 +1,26 @@
+long tempoVolta = 0;
+long rpm = 0;
+long tempoInicial = 0;
+long tempoFinal = 0;
+
+void setup()
+{
+  pinMode(8, INPUT);
+  
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  if(digitalRead(8)) {
+    tempoVolta = tempoInicial - tempoFinal;
+    tempoFinal = tempoInicial;
+    rpm = 60000 / tempoVolta;
+    Serial.print("Tempo Da Volta: ");
+    Serial.print(tempoVolta / 1000.00);
+    Serial.print(" RPM: ");
+    Serial.println(rpm);
+    delay(300);
+  }	
+  tempoInicial = millis();  
+}

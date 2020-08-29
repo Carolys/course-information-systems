@@ -1,0 +1,54 @@
+#define mais 9
+#define menos 8
+#define pot A0
+#define red 13
+#define blue 12 
+
+int tUsuario= 21;
+
+void setup()
+{
+  pinMode(mais, INPUT);
+  pinMode(menos, INPUT);
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  int valorAmb = analogRead(pot);
+  int valorAmbMap = map(valorAmb, 0, 1023, 0, 50);
+  
+  if(digitalRead(mais) == 1){
+    if(tUsuario < 36) {
+		tUsuario = tUsuario + 1;    
+    }
+	delay(300);
+  }
+  
+  if(digitalRead(menos) == 1){
+    if(tUsuario > 15) {
+		tUsuario = tUsuario - 1;    
+    }
+	delay(300);
+  }
+  Serial.print("tUsuario: ");
+  Serial.print(tUsuario);
+  Serial.print(" tAmb: ");
+  Serial.println(valorAmbMap);
+  
+  
+  if(tUsuario == valorAmbMap){
+  	digitalWrite(red, 0);
+    digitalWrite(blue, 0);
+  } else if(tUsuario < (valorAmbMap + 2)){
+  	digitalWrite(red, 0);
+    digitalWrite(blue, 1);
+  } else if(tUsuario > (valorAmbMap - 2)){
+  	digitalWrite(red, 1);
+    digitalWrite(blue, 0);
+  }
+  
+}

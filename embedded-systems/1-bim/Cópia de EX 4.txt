@@ -1,0 +1,52 @@
+int horas = 0;
+int minutos = 0;
+int segundos = 0;
+
+long tempoAtual = 0;
+long tempoAnterior = 0;
+
+void setup()
+{
+  Serial.begin(9600);
+  
+  pinMode(13,OUTPUT);
+  pinMode(7,INPUT);
+  
+}
+
+void loop()
+{
+  
+  if(digitalRead(7))
+    digitalWrite(13,HIGH);
+  else
+    digitalWrite(13,0);
+  
+  tempoAtual = millis();
+  if(tempoAtual - tempoAnterior >= 1000){
+    segundos = segundos +1;
+    tempoAnterior = tempoAtual;
+  }
+  
+  if(segundos == 60){
+    segundos =0;
+    minutos = minutos +1;
+  }
+  
+  if(minutos == 60){
+    horas = horas+1;
+  }
+  
+  if(horas < 10)
+    Serial.print("0");
+  Serial.print(horas);
+  Serial.print(":");
+  if(minutos < 10)
+    Serial.print("0");
+  Serial.print(minutos);
+  Serial.print(":");
+  if(segundos < 10)
+    Serial.print("0");
+  Serial.print(segundos);
+  Serial.println();
+}
