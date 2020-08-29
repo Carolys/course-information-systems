@@ -1,0 +1,9 @@
+c:\users\aluno\documents\visual studio 2015\Projects\Vendas\Vendas\bin\Debug\Vendas.exe.config
+c:\users\aluno\documents\visual studio 2015\Projects\Vendas\Vendas\bin\Debug\Vendas.exe
+c:\users\aluno\documents\visual studio 2015\Projects\Vendas\Vendas\bin\Debug\Vendas.pdb
+c:\users\aluno\documents\visual studio 2015\Projects\Vendas\Vendas\obj\Debug\Vendas.csprojResolveAssemblyReference.cache
+c:\users\aluno\documents\visual studio 2015\Projects\Vendas\Vendas\obj\Debug\Vendas.exe
+c:\users\aluno\documents\visual studio 2015\Projects\Vendas\Vendas\obj\Debug\Vendas.pdb
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Vendas\Vendas\bin\Debug\Vendas.exe.config
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Vendas\Vendas\obj\Debug\Vendas.exe
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Vendas\Vendas\obj\Debug\Vendas.pdb
