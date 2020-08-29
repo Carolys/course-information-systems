@@ -1,0 +1,12 @@
+C:\Users\Windows 10\Desktop\FolhaDePagamento\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe.config
+C:\Users\Windows 10\Desktop\FolhaDePagamento\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe
+C:\Users\Windows 10\Desktop\FolhaDePagamento\FolhaDePagamento\bin\Debug\FolhaDePagamento.pdb
+C:\Users\Windows 10\Desktop\FolhaDePagamento\FolhaDePagamento\obj\Debug\FolhaDePagamento.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10\Desktop\FolhaDePagamento\FolhaDePagamento\obj\Debug\FolhaDePagamento.exe
+C:\Users\Windows 10\Desktop\FolhaDePagamento\FolhaDePagamento\obj\Debug\FolhaDePagamento.pdb
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\FolhaDePagamento\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe.config
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\FolhaDePagamento\FolhaDePagamento\obj\Debug\FolhaDePagamento.exe
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\FolhaDePagamento\FolhaDePagamento\obj\Debug\FolhaDePagamento.pdb
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\FolhaDePagamento\FolhaDePagamento\bin\Debug\FolhaDePagamento.exe
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\FolhaDePagamento\FolhaDePagamento\bin\Debug\FolhaDePagamento.pdb
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\FolhaDePagamento\FolhaDePagamento\obj\Debug\FolhaDePagamento.csprojResolveAssemblyReference.cache
