@@ -1,0 +1,18 @@
+C:\Users\Windows 10\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\Windows 10\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\Windows 10\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Windows 10\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\Windows 10\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\Aluno\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\Aluno\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\Aluno\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\Aluno\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\Aluno\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Aluno\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
