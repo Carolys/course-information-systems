@@ -1,0 +1,9 @@
+c:\users\diogo\documents\visual studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\bin\Debug\EstruturasBasicasOsorioA.exe.config
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\bin\Debug\EstruturasBasicasOsorioA.exe
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\bin\Debug\EstruturasBasicasOsorioA.pdb
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\obj\Debug\EstruturasBasicasOsorioA.csprojResolveAssemblyReference.cache
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\obj\Debug\EstruturasBasicasOsorioA.exe
+C:\Users\diogo\Documents\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\obj\Debug\EstruturasBasicasOsorioA.pdb
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\bin\Debug\EstruturasBasicasOsorioA.exe.config
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\obj\Debug\EstruturasBasicasOsorioA.exe
+C:\Users\carol\OneDrive\Documentos\Visual Studio 2015\Projects\EstruturasBasicasOsorioA\EstruturasBasicasOsorioA\obj\Debug\EstruturasBasicasOsorioA.pdb
