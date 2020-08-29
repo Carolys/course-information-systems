@@ -1,0 +1,12 @@
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\bin\Debug\Teste.exe.config
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\bin\Debug\Teste.exe
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\bin\Debug\Teste.pdb
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\bin\Debug\EntityFramework.dll
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\bin\Debug\EntityFramework.xml
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\obj\Debug\Teste.csprojResolveAssemblyReference.cache
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\obj\Debug\Teste.exe
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\obj\Debug\Teste.pdb
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\obj\Debug\Teste.Migrations.AddBanco.resources
+c:\users\carol\onedrive\documentos\visual studio 2015\Projects\Teste\Teste\obj\Debug\Teste.csproj.GenerateResource.Cache
