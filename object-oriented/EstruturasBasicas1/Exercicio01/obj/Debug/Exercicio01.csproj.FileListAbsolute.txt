@@ -1,0 +1,6 @@
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\EstruturasBasicas\Exercicio01\bin\Debug\Exercicio01.exe.config
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\EstruturasBasicas\Exercicio01\bin\Debug\Exercicio01.exe
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\EstruturasBasicas\Exercicio01\bin\Debug\Exercicio01.pdb
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\EstruturasBasicas\Exercicio01\obj\Debug\Exercicio01.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\EstruturasBasicas\Exercicio01\obj\Debug\Exercicio01.exe
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\EstruturasBasicas\Exercicio01\obj\Debug\Exercicio01.pdb

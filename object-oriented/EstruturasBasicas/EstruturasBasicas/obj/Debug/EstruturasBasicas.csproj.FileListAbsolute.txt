@@ -1,0 +1,6 @@
+c:\users\aluno\documents\visual studio 2015\Projects\EstruturasBasicas\EstruturasBasicas\bin\Debug\EstruturasBasicas.exe.config
+c:\users\aluno\documents\visual studio 2015\Projects\EstruturasBasicas\EstruturasBasicas\bin\Debug\EstruturasBasicas.exe
+c:\users\aluno\documents\visual studio 2015\Projects\EstruturasBasicas\EstruturasBasicas\bin\Debug\EstruturasBasicas.pdb
+c:\users\aluno\documents\visual studio 2015\Projects\EstruturasBasicas\EstruturasBasicas\obj\Debug\EstruturasBasicas.csprojResolveAssemblyReference.cache
+c:\users\aluno\documents\visual studio 2015\Projects\EstruturasBasicas\EstruturasBasicas\obj\Debug\EstruturasBasicas.exe
+c:\users\aluno\documents\visual studio 2015\Projects\EstruturasBasicas\EstruturasBasicas\obj\Debug\EstruturasBasicas.pdb

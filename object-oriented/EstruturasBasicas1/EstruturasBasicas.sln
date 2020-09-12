@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasBasicas", "EstruturasBasicas\EstruturasBasicas.csproj", "{EFB5F398-FDE9-494E-BD63-7750CC88C428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio01", "Exercicio01\Exercicio01.csproj", "{052217DC-8C52-4F0F-AE15-B6B99657E213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB5F398-FDE9-494E-BD63-7750CC88C428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB5F398-FDE9-494E-BD63-7750CC88C428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB5F398-FDE9-494E-BD63-7750CC88C428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB5F398-FDE9-494E-BD63-7750CC88C428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052217DC-8C52-4F0F-AE15-B6B99657E213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052217DC-8C52-4F0F-AE15-B6B99657E213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052217DC-8C52-4F0F-AE15-B6B99657E213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052217DC-8C52-4F0F-AE15-B6B99657E213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

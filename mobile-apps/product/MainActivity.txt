@@ -1,0 +1,79 @@
+public class Cadastrar_Empregado extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_cadastrar_empregado);
+
+//        db = Room.databaseBuilder(this, AppDatabase.class, AppDatabase.DB_NAME).build();
+//        User = new ArrayList<>();
+//        //
+
+
+
+
+
+    }
+
+
+
+
+    public void enviar(View view) {
+        EditText usuario= (EditText) findViewById(R.id.editUserE);
+        EditText email=(EditText) findViewById(R.id.editEmailE);
+        EditText ocupacao=(EditText) findViewById(R.id.editOcupacaoE);
+    /*EditText senha=(EditText) findViewById(R.id.Senha);*/
+
+        String EnvUser=usuario.getText().toString();  //transforma o texto do nome em String para poder ser trabalhada
+        String EnvEmail=email.getText().toString();
+        String EnvOcup=ocupacao.getText().toString();
+
+        /*String EnvSenha=senha.getText().toString(); não implementado ainda*/
+
+        final Empregado empregado= new Empregado();//chama o User empregado para ter acesso as suas strings.
+        empregado.setUsuario(EnvUser);
+        empregado.setEmail(EnvEmail);
+        empregado.setOcupacao(EnvOcup);
+        /*empregado.setSenha(EnvSenha);*/
+
+
+
+        new AsyncTask<Void, Void, Boolean>() {
+            @Override
+            protected Boolean doInBackground(Void... voids) {
+
+                try{
+                    //inserir no banco
+
+                    AppDatabase db = Room.databaseBuilder(getApplicationContext(),
+                            AppDatabase.class, "database-name").build();
+
+                    db.EmpregadoDao().inserirEmpregados(empregado);
+
+                }catch (Exception e)
+                {
+                    return false;
+                }
+                return true;
+            }
+
+            @Override
+            protected void onPostExecute(Boolean gravou) {
+                super.onPostExecute(gravou);
+
+                if(gravou==true)
+                {
+                    Toast.makeText(Cadastrar_Empregado.this, "Cadastrado com sucesso!", Toast.LENGTH_LONG).show();
+                }else
+                {
+
+                }
+            }
+        }.execute();
+
+
+
+
+    }
+
+}
