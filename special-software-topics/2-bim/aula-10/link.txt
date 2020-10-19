@@ -1,0 +1,1 @@
+https://www.embarcados.com.br/raspberry-pi-gpio-modo-input-python/
